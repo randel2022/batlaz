@@ -8,13 +8,14 @@ import claygray from ".././assets/clay-games-gray.png";
 import whiteCrown from ".././assets/VectorCrown-White.png";
 import BlackCrown from ".././assets/VectorCrown.png";
 import console from ".././assets/console.png";
+import thunder from ".././assets/VectorThunder-White.png";
 
 import "./Home.css";
 import { TbMinusVertical } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <div className="pb-36">
+    <div className="pb-36" bgColor="red">
       <div className="flex hero-banner ">
         <div className="w-1/2 flex justify-center flex-col gap-10">
           <div className="px-20">
@@ -153,7 +154,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-2/6 flex">
-              <img src={speaker} className=" p-2 h-10 circle" />
+              <img src={thunder} className="px-3.5 py-2 h-10 circle" />
               <div className="mx-5">
                 <p>Easy to play</p>
                 <p>Nunc sit amet sagittis tortor. </p>
@@ -176,10 +177,10 @@ export default function Home() {
               </div>
             </div>
             <div className="w-2/6 flex">
-              <img src={speaker} className=" p-2 h-10 circle" />
+              <img src={thunder} className="px-3.5 py-2 h-10 circle" />
               <div className="mx-5">
                 <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortor. </p>
+                <p>Nunc sit amet sagittis tortors. </p>
               </div>
             </div>
           </div>

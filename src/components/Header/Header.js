@@ -1,4 +1,8 @@
 import React from "react";
+
+import { useNavigate } from "react-router-dom";
+import { extendTheme } from "@chakra-ui/react";
+
 import { BsFillArrowUpCircleFill, BsFillCircleFill } from "react-icons/bs";
 import { AiFillClockCircle } from "react-icons/ai";
 import iuser from ".././assets/Icon-User.png";
@@ -8,7 +12,42 @@ import imessage from ".././assets/icon-message.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./Header.css";
 
+import {
+  Box,
+  Flex,
+  HStack,
+  Container,
+  IconButton,
+  Button,
+  Image,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  useDisclosure,
+  useColorModeValue,
+  Stack,
+  useColorMode,
+  Text,
+  Link,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  FormControl,
+  FormLabel,
+  Popover,
+  PopoverBody,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+  Input,
+} from "@chakra-ui/react";
+
 export default function Header() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
     <div className="flex justify-between py-5 px-10 w-full">
       <div className="flex items-center w-1/3">
