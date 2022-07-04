@@ -49,16 +49,18 @@ export default function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="flex justify-between py-5 px-10 w-full">
+    <div className="flex justify-between py-5 px-10 w-full bg-white">
       <div className="flex items-center w-1/3">
-        <p>LOGO</p>
+        <Text color="#181818">LOGO</Text>
       </div>
 
       <div className="flex justify-center items-center py-2 w-1/3	">
         <AiFillClockCircle className="text-3xl"></AiFillClockCircle>
         <div>
-          <p>23:03:48 GMT</p>
-          <p className="font-time text-center">Thurday, 2022 June 9</p>
+          <Text color="#181818">23:03:48 GMT</Text>
+          <Text className="font-time text-center" color="#181818">
+            Thurday, 2022 June 9
+          </Text>
         </div>
       </div>
 

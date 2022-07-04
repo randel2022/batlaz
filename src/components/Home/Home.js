@@ -10,12 +10,49 @@ import BlackCrown from ".././assets/VectorCrown.png";
 import console from ".././assets/console.png";
 import thunder from ".././assets/VectorThunder-White.png";
 
+import {
+  Box,
+  Flex,
+  HStack,
+  Container,
+  IconButton,
+  Button,
+  Image,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  useDisclosure,
+  useColorModeValue,
+  Stack,
+  useColorMode,
+  Text,
+  Link,
+  Modal,
+  Heading,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  FormControl,
+  FormLabel,
+  Popover,
+  PopoverBody,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+  Input,
+  InputGroup,
+  InputLeftElement,
+  InputRightElement,
+} from "@chakra-ui/react";
+
 import "./Home.css";
 import { TbMinusVertical } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <div className="pb-36" bgColor="red">
+    <div className="pb-36 bg-white">
       <div className="flex hero-banner ">
         <div className="w-1/2 flex justify-center flex-col gap-10">
           <div className="px-20">
@@ -142,22 +179,28 @@ export default function Home() {
             <div className="w-2/6 flex">
               <img src={console} className=" p-2 h-10 circle" />
               <div className="mx-5">
-                <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortor. </p>
+                <Text color="#484848" fontWeight="bold" fontSize="lg">
+                  Easy to play
+                </Text>
+                <Text color="#484848">Nunc sit amet sagittis tortor. </Text>
               </div>
             </div>
             <div className="w-2/6 flex">
               <img src={speaker} className=" p-2 h-10 circle" />
               <div className="mx-5">
-                <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortor. </p>
+                <Text color="#484848" fontWeight="bold" fontSize="lg">
+                  Easy to play
+                </Text>
+                <Text color="#484848">Nunc sit amet sagittis tortor. </Text>
               </div>
             </div>
             <div className="w-2/6 flex">
               <img src={thunder} className="px-3.5 py-2 h-10 circle" />
               <div className="mx-5">
-                <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortor. </p>
+                <Text color="#484848" fontWeight="bold" fontSize="lg">
+                  Easy to play
+                </Text>
+                <Text color="#484848">Nunc sit amet sagittis tortor. </Text>
               </div>
             </div>
           </div>
@@ -165,22 +208,28 @@ export default function Home() {
             <div className="w-2/6 flex">
               <img src={console} className=" p-2 h-10 circle" />
               <div className="mx-5">
-                <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortor. </p>
+                <Text color="#484848" fontWeight="bold" fontSize="lg">
+                  Easy to play
+                </Text>
+                <Text color="#484848">Nunc sit amet sagittis tortor. </Text>
               </div>
             </div>
             <div className="w-2/6 flex">
               <img src={speaker} className=" p-2 h-10 circle" />
               <div className="mx-5">
-                <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortor. </p>
+                <Text color="#484848" fontWeight="bold" fontSize="lg">
+                  Easy to play
+                </Text>
+                <Text color="#484848">Nunc sit amet sagittis tortor. </Text>
               </div>
             </div>
             <div className="w-2/6 flex">
               <img src={thunder} className="px-3.5 py-2 h-10 circle" />
               <div className="mx-5">
-                <p>Easy to play</p>
-                <p>Nunc sit amet sagittis tortors. </p>
+                <Text color="#484848" fontWeight="bold" fontSize="lg">
+                  Easy to play
+                </Text>
+                <Text color="#484848">Nunc sit amet sagittis tortor. </Text>
               </div>
             </div>
           </div>
@@ -189,7 +238,7 @@ export default function Home() {
         <div className="w-full px-20 flex flex-col gap-10">
           <div className="flex h-9 w-9">
             <img src={BlackCrown} />
-            <h2 className="text-4xl font-bold ml-3">leaderboard</h2>
+            <h2 className="text-4xl font-bold ml-3 uppercase">leaderboard</h2>
           </div>
 
           <div className="flex w-full ">

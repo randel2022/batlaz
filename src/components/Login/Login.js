@@ -1,5 +1,7 @@
 import React from "react";
 
+import placeholderImg from ".././assets/Image-placeholder.png";
+
 import "./Login.css";
 import {
   Box,
@@ -40,15 +42,16 @@ import {
 
 export default function Login() {
   return (
-    <Box className="pb-36" h="100vh" p="10" bgColor="#CFCFCF">
-      <Flex alignItems="center" bgColor="red" height="100vh">
-        <Box w="50%">
+    <Box className="pb-36" h="120vh" py="10" px="24" bgColor="#CFCFCF">
+      <Flex alignItems="center" height="100vh" marginTop="10">
+        <Box w="50%" gap="5" display="flex" flexDirection="column">
           <Link
             color="black"
             borderColor="black"
             border="1px solid"
             py="3"
             px="10"
+            w="20%"
           >
             LOGO
           </Link>
@@ -59,7 +62,12 @@ export default function Login() {
             Nunc tincidunt urna dui, in porttitor mauris congue et. <br></br>
             Proin ullamcorper purus quis tempor interdum.
           </Text>
-          <InputGroup className="label" display="flex" flexDirection="column">
+          <InputGroup
+            className="label"
+            display="flex"
+            flexDirection="column"
+            gap="5"
+          >
             <Input
               className="email"
               type="text"
@@ -79,8 +87,8 @@ export default function Login() {
             <Input
               className="btn-submit"
               type="submit"
-              value="Subscribe"
-              bgColor="#9C4FFF"
+              value="Login"
+              bgColor="#181818"
               zIndex="10"
               w="22%"
             />
@@ -88,7 +96,7 @@ export default function Login() {
           <Text>Don’t have an account? Sign up here</Text>
         </Box>
         <Box w="50%">
-          <Image />
+          <Image src={placeholderImg} />
         </Box>
       </Flex>
     </Box>
