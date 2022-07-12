@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a98376c5.css",
-    "main.js": "/static/js/main.0d8fd853.js",
+    "main.css": "/static/css/main.a011ca56.css",
+    "main.js": "/static/js/main.f1b16f5c.js",
     "static/js/787.cf1a5c7b.chunk.js": "/static/js/787.cf1a5c7b.chunk.js",
     "static/media/Landing.png": "/static/media/Landing.805088d83e06ca8a13e9.png",
     "static/media/section-background.png": "/static/media/section-background.a9ed9fe2ea0a2f962046.png",
@@ -12,20 +12,24 @@
     "static/media/group-circle.png": "/static/media/group-circle.3f7f03da9619ff07da4a.png",
     "static/media/Hero-cup.png": "/static/media/Hero-cup.39219c29cb0e17f74498.png",
     "static/media/b2.png": "/static/media/b2.306d72ab77cf713dac73.png",
+    "static/media/Batlaz-War.png": "/static/media/Batlaz-War.41f4a32750692abfdb4e.png",
+    "static/media/Hero-Controller.png": "/static/media/Hero-Controller.b99ff858b79c8cc54423.png",
+    "static/media/Sword.png": "/static/media/Sword.ac4530d8d942435dff11.png",
     "static/media/Trophy.png": "/static/media/Trophy.07f733c0572e4fb1382f.png",
     "static/media/Chest.png": "/static/media/Chest.759ea6373e0f9844d998.png",
     "static/media/Flag.png": "/static/media/Flag.62bb8f1bfa15e75a9c9d.png",
     "static/media/Controller.png": "/static/media/Controller.f816f6581a67e363b5f6.png",
     "static/media/Thunder.png": "/static/media/Thunder.f720278a2288742f380a.png",
+    "static/media/img1.png": "/static/media/img1.53e4fef38d9d1e1bc771.png",
     "static/media/google-play-gray.png": "/static/media/google-play-gray.3ba2da70d12f8c6f75b1.png",
     "static/media/appstore.png": "/static/media/appstore.0618c8ceca15e1dd8fcd.png",
     "index.html": "/index.html",
-    "main.a98376c5.css.map": "/static/css/main.a98376c5.css.map",
-    "main.0d8fd853.js.map": "/static/js/main.0d8fd853.js.map",
+    "main.a011ca56.css.map": "/static/css/main.a011ca56.css.map",
+    "main.f1b16f5c.js.map": "/static/js/main.f1b16f5c.js.map",
     "787.cf1a5c7b.chunk.js.map": "/static/js/787.cf1a5c7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a98376c5.css",
-    "static/js/main.0d8fd853.js"
+    "static/css/main.a011ca56.css",
+    "static/js/main.f1b16f5c.js"
   ]
 }
