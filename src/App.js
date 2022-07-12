@@ -2,6 +2,7 @@ import * as React from "react";
 
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./components/Landing/Landing";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -9,17 +10,57 @@ import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import { ChakraProvider } from "@chakra-ui/react";
 
+import {
+  Box,
+  Flex,
+  HStack,
+  Container,
+  IconButton,
+  Button,
+  Image,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  useDisclosure,
+  useColorModeValue,
+  Stack,
+  useColorMode,
+  Text,
+  Link,
+  Modal,
+  Heading,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  FormControl,
+  FormLabel,
+  Popover,
+  PopoverBody,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+  Input,
+  InputGroup,
+  InputLeftElement,
+  InputRightElement,
+} from "@chakra-ui/react";
+
 function App() {
   return (
     <ChakraProvider>
       <Router>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/Login" element={<Login />} />
-          <Route exact path="/Signup" element={<Signup />} />
-        </Routes>
-        <Footer />
+        <Box w="100%">
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Landing />} />
+            <Route exact path="/Home" element={<Home />} />
+            <Route exact path="/Login" element={<Login />} />
+            <Route exact path="/Signup" element={<Signup />} />
+          </Routes>
+          <Footer />
+        </Box>
       </Router>
     </ChakraProvider>
   );

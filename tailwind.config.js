@@ -6,6 +6,9 @@ module.exports = {
       width: {
         70: "70%",
       },
+      colors: {
+        newviolet: "#7E20C9",
+      },
     },
   },
   plugins: [],
