@@ -17,11 +17,18 @@ import sectionBg from ".././assets/section-background.png";
 import StarTop from ".././assets/StarTop.png";
 
 import iphoneImage from ".././assets/iPhone13.png";
+import warImg from ".././assets/img1.png";
+import batlazwar from ".././assets/Batlaz-War.png";
 
 import gstore from ".././assets/gstore.png";
 import astore from ".././assets/appstore.png";
 
 import Featured from ".././assets/Feature-Image.png";
+import HeroController from ".././assets/Hero-Controller.png";
+import Sword from ".././assets/Sword.png";
+import Arrow from ".././assets/CTA-Arrow.png";
+
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 import Controller from ".././assets/Controller.png";
 import Trophy from ".././assets/Trophy.png";
@@ -85,7 +92,7 @@ export default function Landing() {
             <img src={banner} />
           </div>
 
-          <Box display="flex" flexDirection="">
+          <Box display="flex" flexDirection="" px="7">
             <div className="w-1/5 flex">
               <div>
                 <Text color="white" fontSize="4xl">
@@ -124,9 +131,12 @@ export default function Landing() {
             >
               Explore Now
             </Link>
-            <Link color="white" className="px-12 py-3 border-10">
-              Get Started
-            </Link>
+
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <Link color="white" className="px-12 py-3 border-10">
+                Get Started
+              </Link>
+            </Box>
           </div>
         </div>
       </Box>
@@ -141,7 +151,17 @@ export default function Landing() {
             nec vitae augue.
           </Text>
         </Box>
-        <Box className="w-3/5 flex justify-between px-20 items-center">
+        <Box
+          className="w-3/5 flex justify-between px-20 items-center"
+          position="relative"
+        >
+          <Image
+            src={HeroController}
+            position="absolute"
+            height="30vh"
+            top="-160%"
+            left="70%"
+          />
           <Image src={googlegray} class="h-1/4" />
           <Image src={claygray} class="h-1/4" />
           <Image src={egame} class="h-1/4" />
@@ -274,13 +294,192 @@ export default function Landing() {
           bgColor="black"
           w="100%"
           px="20"
+          py="20"
+          flexDirection="column"
+          gap="5"
+          position="relative"
         >
-          <Box w="100%" py="50">
+          <Image
+            src={Sword}
+            height="30vh"
+            position="absolute"
+            top="-15%"
+            left="50%"
+          />
+          <Box w="100%" paddingBottom="50">
             <Text color="white" fontSize="3xl">
               Our batlaz war room
             </Text>
           </Box>
-          <Box></Box>
+
+          <Box
+            w="100%"
+            display="flex"
+            alignItems="center"
+            border="1px"
+            borderColor="#454545"
+            borderRightRadius="50"
+            borderLeftRadius="50"
+          >
+            <Box w="10%">
+              <Image src={warImg} className="h-20" />
+            </Box>
+            <Box w="30%">
+              <Text color="#716B76" fontSize="sm">
+                ROOM NAME
+              </Text>
+              <Text color="white" fontSize="lg">
+                Our batlaz war room
+              </Text>
+            </Box>
+            <Box
+              w="50%"
+              bgImage={batlazwar}
+              height="10vh"
+              display="flex"
+              alignItems="start"
+              flexDirection="column"
+              justifyContent="center"
+            >
+              <Text color="#716B76" fontSize="sm">
+                ROOM DESCRIPTION
+              </Text>
+              <Text color="white" fontSize="lg">
+                Proin ullamcorper purus quis tempor interdum.
+              </Text>
+            </Box>
+            <Center w="10%" bgColor="#7E20C9" py="8" borderRightRadius="50">
+              <Link textAlign="center" color="white">
+                JOIN NOW
+              </Link>
+            </Center>
+          </Box>
+          <Box
+            w="100%"
+            display="flex"
+            alignItems="center"
+            border="1px"
+            borderColor="#454545"
+            borderRightRadius="50"
+            borderLeftRadius="50"
+          >
+            <Box w="10%">
+              <Image src={warImg} className="h-20" />
+            </Box>
+            <Box w="30%">
+              <Text color="#716B76" fontSize="sm">
+                ROOM NAME
+              </Text>
+              <Text color="white" fontSize="lg">
+                Our batlaz war room
+              </Text>
+            </Box>
+            <Box
+              w="50%"
+              bgImage={batlazwar}
+              height="10vh"
+              display="flex"
+              alignItems="start"
+              flexDirection="column"
+              justifyContent="center"
+            >
+              <Text color="#716B76" fontSize="sm">
+                ROOM DESCRIPTION
+              </Text>
+              <Text color="white" fontSize="lg">
+                Proin ullamcorper purus quis tempor interdum.
+              </Text>
+            </Box>
+            <Center w="10%" bgColor="#7E20C9" py="8" borderRightRadius="50">
+              <Link textAlign="center" color="white">
+                JOIN NOW
+              </Link>
+            </Center>
+          </Box>
+          <Box
+            w="100%"
+            display="flex"
+            alignItems="center"
+            border="1px"
+            borderColor="#454545"
+            borderRightRadius="50"
+            borderLeftRadius="50"
+          >
+            <Box w="10%">
+              <Image src={warImg} className="h-20" />
+            </Box>
+            <Box w="30%">
+              <Text color="#716B76" fontSize="sm">
+                ROOM NAME
+              </Text>
+              <Text color="white" fontSize="lg">
+                Our batlaz war room
+              </Text>
+            </Box>
+            <Box
+              w="50%"
+              bgImage={batlazwar}
+              height="10vh"
+              display="flex"
+              alignItems="start"
+              flexDirection="column"
+              justifyContent="center"
+            >
+              <Text color="#716B76" fontSize="sm">
+                ROOM DESCRIPTION
+              </Text>
+              <Text color="white" fontSize="lg">
+                Proin ullamcorper purus quis tempor interdum.
+              </Text>
+            </Box>
+            <Center w="10%" bgColor="#7E20C9" py="8" borderRightRadius="50">
+              <Link textAlign="center" color="white">
+                JOIN NOW
+              </Link>
+            </Center>
+          </Box>
+          <Box
+            w="100%"
+            display="flex"
+            alignItems="center"
+            border="1px"
+            borderColor="#454545"
+            borderRightRadius="50"
+            borderLeftRadius="50"
+          >
+            <Box w="10%">
+              <Image src={warImg} className="h-20" />
+            </Box>
+            <Box w="30%">
+              <Text color="#716B76" fontSize="sm">
+                ROOM NAME
+              </Text>
+              <Text color="white" fontSize="lg">
+                Our batlaz war room
+              </Text>
+            </Box>
+            <Box
+              w="50%"
+              bgImage={batlazwar}
+              height="10vh"
+              display="flex"
+              alignItems="start"
+              flexDirection="column"
+              justifyContent="center"
+            >
+              <Text color="#716B76" fontSize="sm">
+                ROOM DESCRIPTION
+              </Text>
+              <Text color="white" fontSize="lg">
+                Proin ullamcorper purus quis tempor interdum.
+              </Text>
+            </Box>
+            <Center w="10%" bgColor="#7E20C9" py="8" borderRightRadius="50">
+              <Link textAlign="center" color="white">
+                JOIN NOW
+              </Link>
+            </Center>
+          </Box>
         </Box>
 
         <Box
@@ -291,7 +490,17 @@ export default function Landing() {
           flexDirection="column"
         >
           <Box>
-            <Box className="flex px-20 justify-between flex-row">
+            <Box
+              className="flex px-20 justify-between flex-row"
+              position="relative"
+            >
+              <Image
+                src={Arrow}
+                position="absolute"
+                height="15vh"
+                top="-50%"
+                left="65%"
+              />
               <Box w="60%" display="flex" gap="3" flexDirection="column">
                 <Text className="text-4xl  text-white">
                   Enjoy Gaming Experience <br></br> With Batlaz App
