@@ -1,7 +1,8 @@
 {
   "name": "batlaz",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "keywords": [],
   "dependencies": {
     "@chakra-ui/icons": "^2.0.3",
     "@chakra-ui/react": "^2.2.1",
