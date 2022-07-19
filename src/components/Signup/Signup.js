@@ -1,6 +1,8 @@
 import React from "react";
 
 import placeholderImg from ".././assets/Image-placeholder.png";
+import sectionBG from ".././assets/section-background.png";
+import HeroCup from ".././assets/Hero-cup.png";
 
 import "./Signup.css";
 import {
@@ -42,21 +44,27 @@ import {
 
 export default function Login() {
   return (
-    <Box className="pb-36" h="120vh" py="10" px="24" bgColor="#CFCFCF">
+    <Box className="pb-36" h="120vh" py="10" px="24" bgImage={sectionBG}>
       <Flex alignItems="center" height="100vh" marginTop="10">
+        <Link
+          href="/"
+          color="white"
+          fontSize="xl"
+          position="absolute"
+          top="2%"
+          left="4%"
+        >
+          Batlaz.
+        </Link>
         <Box w="50%" gap="5" display="flex" flexDirection="column">
-          <Link
-            color="black"
-            borderColor="black"
-            border="1px solid"
-            py="3"
-            px="10"
-            w="20%"
+          <Heading
+            className="mainfont"
+            as="h2"
+            fontWeight="bold"
+            size="3xl"
+            color="white"
           >
-            LOGO
-          </Link>
-          <Heading className="mainfont" as="h2" fontWeight="bold" size="3xl">
-            Sign up on Batlaz & enjoy our battle
+            Sign up on Batlaz <br></br>& enjoy our battle
           </Heading>
           <Text>
             Nunc tincidunt urna dui, in porttitor mauris congue et. <br></br>

@@ -8,6 +8,13 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
+import Verification from "./components/Verification/Verification";
+
+import LatestBattle from "./components/Games/LatestBattle";
+
+import RecentBattle from "./components/Games/RecentBattle";
+import Games from "./components/Games/Games";
+
 import { ChakraProvider } from "@chakra-ui/react";
 
 import {
@@ -52,14 +59,17 @@ function App() {
     <ChakraProvider>
       <Router>
         <Box w="100%">
-          <Header />
+          {/* <Header /> */}
           <Routes>
             <Route exact path="/" element={<Landing />} />
             <Route exact path="/Home" element={<Home />} />
             <Route exact path="/Login" element={<Login />} />
             <Route exact path="/Signup" element={<Signup />} />
+            <Route exact path="/LatestBattle" element={<LatestBattle />} />
+            <Route exact path="/RecentBattle" element={<RecentBattle />} />
+            <Route exact path="/Verification" element={<Verification />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </Box>
       </Router>
     </ChakraProvider>

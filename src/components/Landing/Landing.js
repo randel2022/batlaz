@@ -37,6 +37,12 @@ import Star from ".././assets/Flag.png";
 import Thunder from ".././assets/Thunder.png";
 import Chest from ".././assets/Chest.png";
 
+import LatestBattle from "../Games/LatestBattle";
+import Download from "../Extras/Download";
+
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+
 import {
   Box,
   Flex,
@@ -81,6 +87,7 @@ import { TbMinusVertical } from "react-icons/tb";
 export default function Landing() {
   return (
     <Box>
+      <Header />
       <Box bgImage={sectionBg} bgCover="cover" className="flex">
         <Box
           height="auto"
@@ -89,7 +96,7 @@ export default function Landing() {
           className="w-1/2 p-12"
         >
           <div>
-            <img src={banner} />
+            <Image src={banner} alt="" />
           </div>
 
           <Box display="flex" flexDirection="" px="7">
@@ -205,88 +212,7 @@ export default function Landing() {
       </Box>
 
       <Box className="flex flex-col">
-        <Box
-          bgImage={sectionBg}
-          height="110vh"
-          display="flex"
-          alignItems="center"
-          flexDirection="column"
-          justifyContent="center"
-        >
-          <Box
-            className="flex px-20 justify-between py-5 items-center"
-            // bgColor="red"
-            w="100%"
-          >
-            <Text className="text-3xl" color="white">
-              Latest batlaz battle
-            </Text>
-            <Link color="white" bgColor="black" px="3" py="1" borderRadius="15">
-              View All Games
-            </Link>
-          </Box>
-          <Box
-            display="flex"
-            flexDirection="row"
-            className="px-20 gap-10"
-            w="100%"
-          >
-            <Box
-              bgColor="black"
-              px="3"
-              paddingTop="3"
-              paddingBottom="8"
-              borderRadius="35"
-              height="auto"
-            >
-              <Image src={circle1} />
-              <Text className="text-center text-white" py="4">
-                Maecenas sit amet urna ornare
-              </Text>
-              <Center marginTop="8">
-                <Link className="text-center bg-black text-white px-10 py-2 rounded-md">
-                  Play
-                </Link>
-              </Center>
-            </Box>
-            <Box
-              bgColor="black"
-              px="3"
-              paddingTop="3"
-              paddingBottom="8"
-              borderRadius="35"
-              height="auto"
-            >
-              <Image src={circle2} />
-              <Text className="text-center text-white" py="4">
-                Maecenas sit amet urna ornare
-              </Text>
-              <Center marginTop="8">
-                <Link className="text-center bg-black text-white px-10 py-2 rounded-md">
-                  Play
-                </Link>
-              </Center>
-            </Box>
-            <Box
-              bgColor="black"
-              px="3"
-              paddingTop="3"
-              paddingBottom="8"
-              borderRadius="35"
-              height="auto"
-            >
-              <Image src={circle3} />
-              <Text className="text-center text-white" py="4">
-                Maecenas sit amet urna ornare
-              </Text>
-              <Center marginTop="8">
-                <Link className="text-center bg-black text-white px-10 py-2 rounded-md">
-                  Play
-                </Link>
-              </Center>
-            </Box>
-          </Box>
-        </Box>
+        <LatestBattle />
 
         <Box
           display="flex"
@@ -965,22 +891,8 @@ export default function Landing() {
           </Box>
         </Box>
       </Box>
-      <Box>
-        <div className="flex top-footer">
-          <div className="w-1/2 px-20 py-10 flex flex-col bg-black gap-y-2">
-            <h2 className="text-4xl text-white">Download our app</h2>
-            <p className="text-white">
-              Vestibulum felis sapien, tristique vitae finibus et, aliquam quis
-              turpis. Nam euismod nisi in mauris convallis tempor. In hac
-              habitasse platea dictumst.
-            </p>
-          </div>
-          <div className="w-1/2 flex justify-start items-center bg-black">
-            <img src={gstore} className="w-1/4 h-14" />
-            <img src={astore} className="w-1/4 h-14 mx-10" />
-          </div>
-        </div>
-      </Box>
+      <Download />
+      <Footer />
     </Box>
   );
 }
