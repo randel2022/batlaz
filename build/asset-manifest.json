@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.a011ca56.css",
-    "main.js": "/static/js/main.f1b16f5c.js",
+    "main.css": "/static/css/main.c89b0934.css",
+    "main.js": "/static/js/main.63933e6e.js",
     "static/js/787.cf1a5c7b.chunk.js": "/static/js/787.cf1a5c7b.chunk.js",
     "static/media/Landing.png": "/static/media/Landing.805088d83e06ca8a13e9.png",
+    "static/media/home-hero2.png": "/static/media/home-hero2.4d53b5e982ef1ebce1e5.png",
+    "static/media/gamebackground.png": "/static/media/gamebackground.00bcd45b5a3c58f22e01.png",
     "static/media/section-background.png": "/static/media/section-background.a9ed9fe2ea0a2f962046.png",
+    "static/media/Footer-Background.png": "/static/media/Footer-Background.63ed39c621f94479b2e9.png",
     "static/media/Feature-Image.png": "/static/media/Feature-Image.5c8bfc2297c985433ba2.png",
     "static/media/iPhone13.png": "/static/media/iPhone13.0983ce30a22e92356424.png",
     "static/media/b3.png": "/static/media/b3.c6672ba15176f9ded940.png",
     "static/media/b1.png": "/static/media/b1.8da3115a7a7a25dbbbed.png",
     "static/media/group-circle.png": "/static/media/group-circle.3f7f03da9619ff07da4a.png",
+    "static/media/home-hero.png": "/static/media/home-hero.b0a1df4e4c7a77f037af.png",
+    "static/media/recent1.png": "/static/media/recent1.b0a1df4e4c7a77f037af.png",
     "static/media/Hero-cup.png": "/static/media/Hero-cup.39219c29cb0e17f74498.png",
     "static/media/b2.png": "/static/media/b2.306d72ab77cf713dac73.png",
+    "static/media/recent4.png": "/static/media/recent4.9ea683658a0fade18d89.png",
     "static/media/Batlaz-War.png": "/static/media/Batlaz-War.41f4a32750692abfdb4e.png",
+    "static/media/recent3.png": "/static/media/recent3.3f3e2fec650c4a3b48f2.png",
+    "static/media/recent2.png": "/static/media/recent2.05f507d0108c68a26159.png",
     "static/media/Hero-Controller.png": "/static/media/Hero-Controller.b99ff858b79c8cc54423.png",
     "static/media/Sword.png": "/static/media/Sword.ac4530d8d942435dff11.png",
     "static/media/Trophy.png": "/static/media/Trophy.07f733c0572e4fb1382f.png",
@@ -24,12 +32,12 @@
     "static/media/google-play-gray.png": "/static/media/google-play-gray.3ba2da70d12f8c6f75b1.png",
     "static/media/appstore.png": "/static/media/appstore.0618c8ceca15e1dd8fcd.png",
     "index.html": "/index.html",
-    "main.a011ca56.css.map": "/static/css/main.a011ca56.css.map",
-    "main.f1b16f5c.js.map": "/static/js/main.f1b16f5c.js.map",
+    "main.c89b0934.css.map": "/static/css/main.c89b0934.css.map",
+    "main.63933e6e.js.map": "/static/js/main.63933e6e.js.map",
     "787.cf1a5c7b.chunk.js.map": "/static/js/787.cf1a5c7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a011ca56.css",
-    "static/js/main.f1b16f5c.js"
+    "static/css/main.c89b0934.css",
+    "static/js/main.63933e6e.js"
   ]
 }
